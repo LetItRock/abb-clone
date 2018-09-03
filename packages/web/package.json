@@ -1,8 +1,9 @@
 {
-  "name": "web",
+  "name": "@abb/web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@abb/common": "1.0.0",
     "antd": "^3.8.4",
     "apollo-cache-inmemory": "^1.2.9",
     "apollo-client": "^2.4.1",

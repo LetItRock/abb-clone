@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ApolloProvider } from 'react-apollo';
 import * as ReactDOM from 'react-dom';
 import { client } from './apollo';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 import { Routes } from './routes';
 import './index.css';
 
@@ -12,4 +12,4 @@ ReactDOM.render(
   </ApolloProvider>,
   document.getElementById('root') as HTMLElement
 );
-registerServiceWorker();
+// registerServiceWorker();
