@@ -3,6 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "jsx": "react-native",
+    "lib": ["es6", "esnext.asynciterable"],
     "strict": true,
     "esModuleInterop": true,
     "rootDir": "src",
@@ -16,8 +17,5 @@
     "types": ["jest", "node", "react", "react-dom", "react-router-dom"],
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules",
-    "build"
-  ]
+  "exclude": ["node_modules", "build"]
 }

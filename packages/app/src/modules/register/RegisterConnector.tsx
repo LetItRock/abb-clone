@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { Button } from 'react-native-elements';
+import { RegisterView } from './ui/RegisterView';
 
 export class RegisterConnector extends React.PureComponent {
-  onPress = () => {
+  dummy = async (values: any) => {
     console.log('button pressed');
+    return null;
   };
 
   render() {
-    return <Button title="BUTTON" onPress={this.onPress} />
+    return <RegisterView submit={this.dummy} />
   }
 }
