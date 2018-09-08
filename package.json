@@ -1,7 +1,19 @@
 {
   "private": true,
   "workspaces": {
-    "packages": ["packages/*"],
-    "nohoist": ["**/rimraf", "**/rimraf/**"]
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/rimraf",
+      "**/rimraf/**"
+    ]
+  },
+  "scripts": {
+    "build-server": "lerna run build --scope={@abb/common,@abb/server}"
+  },
+  "name": "abb-clone",
+  "devDependencies": {
+    "lerna": "^3.3.0"
   }
 }

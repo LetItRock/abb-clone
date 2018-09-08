@@ -2,28 +2,8 @@
   {
     "name": "production",
     "type": "postgres",
-    "host": "localhost",
-    "port": 5432,
-    "username": "paty",
-    "password": "root",
-    "database": "graphql-ts-server-boilerplate",
     "synchronize": true,
-    "logging": true,
-    "dropSchema": false,
-    "entities": [
-      "src/entity/**/*.js"
-    ],
-    "migrations": [
-      "src/migration/**/*.js"
-    ],
-    "subscribers": [
-      "src/subscriber/**/*.js"
-    ],
-    "cli": {
-      "entitiesDir": "src/entity",
-      "migrationsDir": "src/migration",
-      "subscribersDir": "src/subscriber"
-    }
+    "logging": true
   },
   {
     "name": "development",
