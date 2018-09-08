@@ -5,7 +5,7 @@ import { HttpLink } from 'apollo-link-http';
 
 // android
 // ios localhost
-const host = Platform.OS === 'ios' ? 'http://localhost:4000' : 'http://10.0.2.2:4000';
+const host = Platform.OS === 'ios' ? 'http://localhost:4000' : 'http://192.168.1.3:4000';
 
 export const client = new ApolloClient({
   link: new HttpLink({
